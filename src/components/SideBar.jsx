@@ -1,7 +1,6 @@
 import React from 'react';
 
-class SideBar extends Component {
-    state = {  }
+class SideBar extends React.Component{
     render() { 
         return (  
             <h1>SIDEBAR</h1>

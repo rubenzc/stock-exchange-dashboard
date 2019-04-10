@@ -1,9 +1,11 @@
 import React from 'react';
 
-const NavBar = () => {
-    return (
-        <p>HELLO</p>
-    );
+class NavBar extends React.Component {
+    render() { 
+        return (  
+            <h1>NavBar Hello!!</h1>
+        );
+    }
 }
  
 export default NavBar;
